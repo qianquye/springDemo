@@ -14,19 +14,21 @@ public class FileManage {
 		FileChannel inputChannel = fis.getChannel();
 		final long fileSize = inputChannel.size();
 		long average = fileSize / fileCount; //平均值 
-		long bufferSize = 200;
-		ByteBuffer byteBuffer = ByteBuffer.allocate(Integer.valueOf(bufferSize+""));
+		long bufferSize = 100;
+		ByteBuffer byteBuffer = ByteBuffer.allocate(Integer.valueOf(bufferSize+"")); //分配了一段内存空间，作为缓存，allocate方法对缓存自动清零
 		long startPosition = 0; //子文件开始位置
 		long endPosition = average < bufferSize ? 0 : average - bufferSize;//结束位置
 		for(int i = 0 ; i < fileCount; i++){
 			if(i+1 != fileCount){
-				int read = inputChannel.read(byteBuffer,endPosition); //读取数据
+				int read = inputChannel.read(byteBuffer,endPosition); //读取数据,从结束的位置读取（主要判断是不是一个完整的语句，轮询这200个字符）
 				readW:
 					while(read != -1){
+						int tn = 0;
 						byteBuffer.flip();//切换读模式
 						byte[] array = byteBuffer.array();
 						for(int j = 0; j < array.length ; j++){
 							byte b = array[j];
+							tn++;
 							if(b == 10 || b == 13){//判断 \n\r
 								endPosition += j;
 								break readW;
@@ -39,7 +41,9 @@ public class FileManage {
 			}else{
 				endPosition = fileSize; //最后一个文件
 			}
-			FileOutputStream fos = new FileOutputStream(filePath+(i+1));
+			String startName = filePath.substring(0, filePath.lastIndexOf("."))+(i+1);
+			String endName = filePath.substring(filePath.lastIndexOf("."));
+			FileOutputStream fos = new FileOutputStream(startName+endName);
 			FileChannel outputChannel = fos.getChannel();
 			inputChannel.transferTo(startPosition, endPosition - startPosition, outputChannel);
 			outputChannel.close();
@@ -54,10 +58,10 @@ public class FileManage {
 	
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		scanner.nextLine();
+	    scanner.nextLine();
 		long startTime = System.currentTimeMillis();
 		try {
-			splitFile("D://ss//sou.txt", 3);
+			splitFile("E:\\test\\log.txt", 3);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
