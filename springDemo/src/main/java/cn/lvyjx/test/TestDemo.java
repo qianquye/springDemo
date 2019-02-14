@@ -1,5 +1,7 @@
 package cn.lvyjx.test;
 
+import java.util.HashMap;
+
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.util.StringUtils;
 
@@ -9,7 +11,7 @@ public class TestDemo {
 	
 	public static void main(String[] args) {
 		
-		String path = "cn.lvyjx.test.ClassInstance cn.lvyjx.test.ClassInstance1;cn.lvyjx.test.ClassInstance2\t\ncn.lvyjx.test.ClassInstance3";
+		/*String path = "cn.lvyjx.test.ClassInstance cn.lvyjx.test.ClassInstance1;cn.lvyjx.test.ClassInstance2\t\ncn.lvyjx.test.ClassInstance3";
 		String[] paths = StringUtils.tokenizeToStringArray(path, ConfigurableApplicationContext.CONFIG_LOCATION_DELIMITERS);
 		for(String p : paths){
 			System.out.println("p="+p);
@@ -31,6 +33,11 @@ public class TestDemo {
 			e.printStackTrace();
 		} catch (IllegalAccessException e) {
 			e.printStackTrace();
-		}
+		}*/
+		HashMap<String,String> map = new HashMap<String,String>();
+		map.put(null,"123456");
+		String key ="sss";
+		int h;
+		System.out.println("key>"+((h = key.hashCode()) ^ (h >>> 16)));
 	}
 }
