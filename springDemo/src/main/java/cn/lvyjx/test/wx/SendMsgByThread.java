@@ -14,8 +14,8 @@ public class SendMsgByThread {
 	private static SendMsgByThread sendMsgByThread = null;
 	private static List<FinalSendDataMsg> sendList = new ArrayList<FinalSendDataMsg>();
 	private static ThreadInstance ti = new ThreadInstance();
-	private static final int IN = 1;
-	private static final int OUT = 2;
+	public static final int IN = 1;
+	public static final int OUT = 2;
 	
 	private SendMsgByThread(){
 		init();

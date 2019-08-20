@@ -34,10 +34,23 @@ public class TestDemo {
 		} catch (IllegalAccessException e) {
 			e.printStackTrace();
 		}*/
-		HashMap<String,String> map = new HashMap<String,String>();
+		/*HashMap<String,String> map = new HashMap<String,String>();
 		map.put(null,"123456");
 		String key ="sss";
 		int h;
-		System.out.println("key>"+((h = key.hashCode()) ^ (h >>> 16)));
+		System.out.println("key>"+((h = key.hashCode()) ^ (h >>> 16)));*/
+		
+		System.out.println( getValue());
+		
+	}
+	
+	public static int getValue(){
+		for(int i =0 ;i < 10 ;i++){
+			if(i ==5){
+				return i;
+			}
+		}
+		System.out.println("ssss");
+		return 0;
 	}
 }

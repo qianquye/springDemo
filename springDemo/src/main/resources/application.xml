@@ -25,7 +25,6 @@
   
   </context:component-scan> 
 
-  
 <!-- 通过setting方法注入 
   <bean id="injectDemo" class="springDemo.injection.InjectDemo">
        <property name="injectDao" ref="injectDao"></property>
@@ -48,11 +47,11 @@
    <bean id="factorydao" class="springDemo.injection.InjectFactory" ></bean>
    <bean id="injectDao" factory-bean="factorydao" factory-method="getInstance" />
    
-   <!-- <bean id="BeanDefinitionRegistryPostProcessorDemo" class="springDemo.postProcessor.BeanDefinitionRegistryPostProcessorDemo" /> -->
+   <!-- <bean id="BeanDefinitionRegistryPostProcessorDemo" class="springDemo.postProcessor.BeanDefinitionRegistryPostProcessorDemo" /> 
    <bean id="BeanDefinitionRegistryPostProcessorOrderDemo" class="springDemo.postProcessor.BeanDefinitionRegistryPostProcessorOrderDemo" /> 
     <bean id="BeanDefinitionRegistryPostProcessorPriorityOrderedDemo" class="springDemo.postProcessor.BeanDefinitionRegistryPostProcessorPriorityOrderedDemo" /> 
     <bean id="BeanPostProcessorDemo" class="springDemo.postProcessor.BeanPostProcessorDemo" /> 
-   
+   -->
    <bean id="messageSource" class="org.springframework.context.support.ResourceBundleMessageSource">
          <property name="basenames">
            <list>

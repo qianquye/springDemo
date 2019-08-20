@@ -18,6 +18,12 @@ public class ConfigWatcher {
 	
 	private static WatchService watchService;
 	
+	public static void main(String[] args) throws IOException {
+		ConfigWatcher cw = new ConfigWatcher();
+		cw.init();
+		System.in.read();
+	}
+	
 	public void init(){
 		try{
 			watchService = FileSystems.getDefault().newWatchService();
