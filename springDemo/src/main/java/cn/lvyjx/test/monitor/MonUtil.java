@@ -14,6 +14,7 @@ import java.util.TreeMap;
 import javax.servlet.http.HttpServletRequest;
 
 import cn.lvyjx.test.wx.WxMessVo;
+import cn.lvyjx.test.wx.WxSendDataMess;
 
 public class MonUtil {
 
@@ -58,9 +59,11 @@ public class MonUtil {
 				if(trace != null && trace.length > 0){
 					message += "  "+trace[0].toString();
 				}
-				MonUtil.sendWxAtlerMotify()
+				MonUtil.sendWxAtlerNofity(formatCalendar("yyyy-MM-dd HH:mm:ss")+":"+"异常"+reqUrl,message,wxNtfUrl);
 			}
 		});
+		worker.setDaemon(true); //设为守护线程，不然关不了
+		worker.start();
 	}
 	
 	public static void sendWxAtlerNofity(String title,String message,String url) {
@@ -91,7 +94,7 @@ public class MonUtil {
 				dataMap.put("occurtime",formatCalendar("yyyy-MM-dd HH:mm:ss"));
 				dataMap.put("remark", "请点击查看详细内容");
 				mess.setDataMap(dataMap);
-				WXSendDataMess.sendWxMessToUser(mess);
+				WxSendDataMess.sendWxMessToUser(mess);
 			}
 		}catch(Exception e){
 			e.printStackTrace();

@@ -25,7 +25,6 @@
   
   </context:component-scan> 
 
-  
 <!-- 通过setting方法注入 
   <bean id="injectDemo" class="springDemo.injection.InjectDemo">
        <property name="injectDao" ref="injectDao"></property>
