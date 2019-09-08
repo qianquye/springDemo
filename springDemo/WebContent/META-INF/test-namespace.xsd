@@ -1,0 +1,13 @@
+<xsd:schema xmlns="http://www.lovcg.cn/schemas/test"
+            xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            targetNamespace="http://www.lovcg.cn/schemas/test"
+            elementFormDefault="qualified">
+
+<xsd:element name="visit">
+    <xsd:complexType>
+        <xsd:attribute name="name" type="xsd:string" use="required" form="unqualified"/>
+        <xsd:attribute name="url" type="xsd:string" use="required" form="unqualified"/>
+    </xsd:complexType>
+</xsd:element>
+
+</xsd:schema>
