@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-
 <beans xmlns="http://www.springframework.org/schema/beans" 
        xmlns:context="http://www.springframework.org/schema/context" 
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xmlns:test="http://www.lovcg.cn/schemas/test"
+       xmlns:test="http://www.lovcg.cn/schema/test"
     xsi:schemaLocation="
-    http://www.springframework.org/schema/context  
-    http://www.springframework.org/schema/context/spring-context.xsd  
-    http://www.springframework.org/schema/beans
-    http://www.springframework.org/schema/beans/spring-beans.xsd
-    http://www.lovcg.cn/schemas/test
-    http://www.lovcg.cn/schemas/test/test-1.0.xsd"  >
+    http://www.springframework.org/schema/context 
+    http://www.springframework.org/schema/context/spring-context.xsd 
+    http://www.springframework.org/schema/beans 
+    http://www.springframework.org/schema/beans/spring-beans.xsd 
+    http://www.lovcg.cn/schema/test
+    http://www.lovcg.cn/schema/test/test-visit.xsd" >
 
-<test:visit name="test" url="http://www.lovcg.cn/schemas/test"></test:visit>
-
-
+<test:visit url="ee" name="test"/>
 </beans>

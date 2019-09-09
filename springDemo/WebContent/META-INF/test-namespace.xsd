@@ -1,6 +1,7 @@
-<xsd:schema xmlns="http://www.lovcg.cn/schemas/test"
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns="http://lovcg.cn/schema/test"
             xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-            targetNamespace="http://www.lovcg.cn/schemas/test"
+            targetNamespace="http://lovcg.cn/schema/test"
             elementFormDefault="qualified">
 
 <xsd:element name="visit">
