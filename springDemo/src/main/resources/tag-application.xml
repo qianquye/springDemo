@@ -2,14 +2,15 @@
 <beans xmlns="http://www.springframework.org/schema/beans" 
        xmlns:context="http://www.springframework.org/schema/context" 
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xmlns:test="http://www.lovcg.cn/schema/test"
+       xmlns:test="http://lovcg.cn/schema/test"
     xsi:schemaLocation="
     http://www.springframework.org/schema/context 
     http://www.springframework.org/schema/context/spring-context.xsd 
     http://www.springframework.org/schema/beans 
     http://www.springframework.org/schema/beans/spring-beans.xsd 
-    http://www.lovcg.cn/schema/test
-    http://www.lovcg.cn/schema/test/test-visit.xsd" >
+    http://lovcg.cn/schema/test
+    http://lovcg.cn/schema/test/test-visit.xsd" >
 
-<test:visit url="ee" name="test"/>
+<!-- <test:visit id="visitBean" url="ee" name="visitBean"/> -->
+<test:visit id="visitBean" url="ee" name="visitBean" ></test:visit>
 </beans>

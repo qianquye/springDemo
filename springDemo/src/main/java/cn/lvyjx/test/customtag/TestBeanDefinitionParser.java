@@ -15,10 +15,12 @@ public class TestBeanDefinitionParser extends AbstractBeanDefinitionParser {
 
     @Override
     protected final AbstractBeanDefinition parseInternal(Element element, ParserContext parserContext) {
-        BeanDefinitionBuilder builder = BeanDefinitionBuilder.rootBeanDefinition(TestNamespaceBean.class);
+       // BeanDefinitionBuilder builder = BeanDefinitionBuilder.genericBeanDefinition();
+       // builder.getRawBeanDefinition().setBeanClass(TestNamespaceBean.class);
+    	BeanDefinitionBuilder builder = BeanDefinitionBuilder.rootBeanDefinition(TestNamespaceBean.class);
         setTestName(element,builder);
         setTestUrl(element,builder);
-        return null;
+        return builder.getBeanDefinition(); //如果没有返回，那么就获取不到相应的数据
     }
 
     private void setTestName(Element element,BeanDefinitionBuilder builder) {

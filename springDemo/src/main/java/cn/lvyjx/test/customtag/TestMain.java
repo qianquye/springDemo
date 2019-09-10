@@ -12,7 +12,6 @@ public class TestMain {
     public static void main(String[] args) {
         ApplicationContext context = new ClassPathXmlApplicationContext(new String[]{"tag-application.xml"});
         TestNamespaceBean testBean = context.getBean(TestNamespaceBean.class);
-        System.out.println("name"+testBean.getName()+" \n url:"+testBean.getUrl());
-        System.out.println("--");
+        System.out.println("name:"+testBean.getName()+" \nurl:"+testBean.getUrl());
     }
 }

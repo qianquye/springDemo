@@ -1,0 +1,2 @@
+http\://lovcg.cn/schema/test=cn.lvyjx.test.customtag.TestNamespaceHandler
+http\://lovcg.cn/schema/user=cn.lvyjx.test.customtag.tag1.MyUserNamespaceHandler

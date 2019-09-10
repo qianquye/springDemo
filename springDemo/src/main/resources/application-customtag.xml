@@ -12,6 +12,7 @@
         http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.0.xsd  
         http://lovcg.cn/schema/user http://lovcg.cn/schema/user.xsd">  
    
-<myTag:user email="email" userName="jack" id="1"/>
+<myTag:user email="email" userName="jack" id="testBean"/>
+
 
 </beans>
