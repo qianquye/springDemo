@@ -2,6 +2,7 @@ package cn.lvyjx.test;
 
 import java.util.HashMap;
 
+import org.springframework.beans.BeanUtils;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.util.StringUtils;
 

@@ -1,5 +1,12 @@
 package cn.lvyjx.test.util;
 
+import java.io.ByteArrayOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.HttpURLConnection;
+import java.net.URL;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -63,14 +70,71 @@ public class StringUtil {
 		return sb.toString();
 	}
 	
+	public static String getIpResultAddress(String ipArg) throws IOException{
+		String resultStr = "";
+		InputStream is = null;
+		ByteArrayOutputStream outStream = null;
+		try{
+			URL url = new URL("http://whois.pconline.com.cn/ip.jsp?ip="+ipArg);
+			HttpURLConnection connect = (HttpURLConnection)url.openConnection();
+			connect.setConnectTimeout(3000);
+			connect.setReadTimeout(3000);
+			is = connect.getInputStream();
+			outStream = new ByteArrayOutputStream();
+			byte[] buff = new byte[1024];
+			int rc = 0;
+			while((rc = is.read(buff,0,256)) > 0 ){
+				outStream.write(buff,0,rc);
+			}
+			byte[] b = outStream.toByteArray();
+			connect.disconnect();
+			resultStr = new String(b,"GBK");
+			if(resultStr == null || resultStr.equals("")){
+				resultStr = "";
+			}
+		}catch(Exception e){
+			System.out.println("登录时获取ip地址报错："+e.getMessage());
+		}finally{
+			try{
+				if(outStream != null)
+					outStream.close();
+			}catch(Exception e){
+				System.out.println("获取ip地址关闭输出流报错"+e.getMessage());
+			}
+			
+			try{
+				if(is != null){
+					is.close();
+				}
+			}catch(Exception e){
+				System.out.println("获取ip地址关闭输入流报错"+e.getMessage());
+			}
+			
+		}
+		
+		return resultStr;
+	}
 	
 	public static void main(String[] args) {
-		System.out
+		/*System.out
 				.println(underline2Camel("_abcdefg_hijklnm_opq_rst_uvw_", true));
 		
 		System.out
 		.println(camel2Underline("_abcdefgHijklnmOpqRstUvw_"));
 		System.out
-		.println(underline2Camel("abcdefgHijklnmOpqRstUvw",true));
+		.println(underline2Camel("abcdefgHijklnmOpqRstUvw",true));*/
+		
+		/*try {
+			System.out.println(getIpResultAddress("125.40.56.219"));
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}*/
+		
+		Map<String,String>  params = new HashMap<String,String>();
+		params.put("其它国家", "其它国家");
+		if(params.containsValue("其它")){
+			System.out.println("ffffff");
+		}
 	}
 }
