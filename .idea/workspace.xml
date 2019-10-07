@@ -2,136 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4cc5320-62d5-46ae-b256-db626cdfe747" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springDemo/src/main/java/cn/lvyjx/test/model/observer/MainDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springDemo/src/main/java/cn/lvyjx/test/model/observer/MsgReceive1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springDemo/src/main/java/cn/lvyjx/test/model/observer/MsgReceive2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springDemo/src/main/java/cn/lvyjx/test/model/observer/NoticeEvent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springDemo/src/main/java/cn/lvyjx/test/model/observer/说明" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springDemo/src/main/resources/application-oberver.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/MyProfit.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/MyProfit.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/RedPackage.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/RedPackage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/Test.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/Test.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvy/websocet/bio/ClientSocket.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvy/websocet/bio/ClientSocket.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvy/websocet/bio/ServletSocket.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvy/websocet/bio/ServletSocket.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvy/websocet/bio/SocketDemo.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvy/websocet/bio/SocketDemo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvy/websocet/service/MyHandle.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvy/websocet/service/MyHandle.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/BarCodeTest.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/BarCodeTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/ClassInstance.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/ClassInstance.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/CodeUtil.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/CodeUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/CreateMiniCodeB.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/CreateMiniCodeB.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/HttpServletDemo.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/HttpServletDemo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/LambdaDemo.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/LambdaDemo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/LambdaInterface.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/LambdaInterface.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/LambdaInterface2.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/LambdaInterface2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/RequestParamsBase.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/RequestParamsBase.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/TestDemo.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/TestDemo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/TransientDemo.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/TransientDemo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/UserInfo.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/UserInfo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/antiattack/AntiAttack$1.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/antiattack/AntiAttack$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/antiattack/AntiAttack$2.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/antiattack/AntiAttack$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/antiattack/AntiAttack.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/antiattack/AntiAttack.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/antiattack/CurConnectionWrapper.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/antiattack/CurConnectionWrapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/concurrent/delayqueue/DataDemo.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/concurrent/delayqueue/DataDemo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/concurrent/delayqueue/DelayItem.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/concurrent/delayqueue/DelayItem.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/concurrent/delayqueue/DelayTest.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/concurrent/delayqueue/DelayTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/concurrent/delayqueue/ItemQueueThread$LazyHolder.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/concurrent/delayqueue/ItemQueueThread$LazyHolder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/concurrent/delayqueue/ItemQueueThread.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/concurrent/delayqueue/ItemQueueThread.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/configWatcher/ConfigWatcher$1.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/configWatcher/ConfigWatcher$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/configWatcher/ConfigWatcher$WatchThread.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/configWatcher/ConfigWatcher$WatchThread.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/configWatcher/ConfigWatcher.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/configWatcher/ConfigWatcher.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/configWatcher/FileChangeDemo.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/configWatcher/FileChangeDemo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/createBarServlet.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/createBarServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/customannotation/RepMapping.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/customannotation/RepMapping.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/customannotation/ReqMethod.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/customannotation/ReqMethod.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/customannotation/ReqValue.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/customannotation/ReqValue.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/customannotation/TestAnnotation.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/customannotation/TestAnnotation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/customannotation/User.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/customannotation/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/customtag/TestBeanDefinitionParser.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/customtag/TestBeanDefinitionParser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/customtag/TestMain.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/customtag/TestMain.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/customtag/TestNamespaceBean.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/customtag/TestNamespaceBean.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/customtag/TestNamespaceHandler.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/customtag/TestNamespaceHandler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/customtag/tag1/CustomerTagTest.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/customtag/tag1/CustomerTagTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/customtag/tag1/MyUserNamespaceHandler.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/customtag/tag1/MyUserNamespaceHandler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/customtag/tag1/User.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/customtag/tag1/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/customtag/tag1/UserBeanDefinitionParser.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/customtag/tag1/UserBeanDefinitionParser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/data/ActionBase.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/data/ActionBase.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/data/CurDataSource.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/data/CurDataSource.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/ddd/CashRegister.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/ddd/CashRegister.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/ddd/Cashier.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/ddd/Cashier.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/ddd/Customer.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/ddd/Customer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/ddd/Goods.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/ddd/Goods.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/ddd/MainDemo.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/ddd/MainDemo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/hashmapDemo/AbstractMyMap.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/hashmapDemo/AbstractMyMap.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/hashmapDemo/MyHashMap$MyNode.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/hashmapDemo/MyHashMap$MyNode.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/hashmapDemo/MyHashMap.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/hashmapDemo/MyHashMap.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/hashmapDemo/MyMap$MyEntry.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/hashmapDemo/MyMap$MyEntry.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/hashmapDemo/MyMap.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/hashmapDemo/MyMap.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/monitor/AllCodeFilter.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/monitor/AllCodeFilter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/monitor/MonUtil$1.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/monitor/MonUtil$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/monitor/MonUtil.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/monitor/MonUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/oom/KeylessEntry$Key.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/oom/KeylessEntry$Key.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/oom/KeylessEntry.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/oom/KeylessEntry.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/oom/OutOfMemoryByHeap.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/oom/OutOfMemoryByHeap.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/postProcessor/MainDemo.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/postProcessor/MainDemo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/postProcessor/MyBeanFactoryPostProcessor.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/postProcessor/MyBeanFactoryPostProcessor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/postProcessor/MyBeanPostProcessor.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/postProcessor/MyBeanPostProcessor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/postProcessor/Student.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/postProcessor/Student.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/postProcessor/Teacher.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/postProcessor/Teacher.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/structure/ChilderDemo.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/structure/ChilderDemo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/structure/FatherDemo.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/structure/FatherDemo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/threadDemo/ConcurrencyTest$1.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/threadDemo/ConcurrencyTest$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/threadDemo/ConcurrencyTest.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/threadDemo/ConcurrencyTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/threadDemo/MySemaphore.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/threadDemo/MySemaphore.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/threadDemo/TimerDemo.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/threadDemo/TimerDemo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/threadDemo/excutor/CustomThreadPoolExecutor$1.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/threadDemo/excutor/CustomThreadPoolExecutor$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/threadDemo/excutor/CustomThreadPoolExecutor$CustomRejectedExecutionHandler.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/threadDemo/excutor/CustomThreadPoolExecutor$CustomRejectedExecutionHandler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/threadDemo/excutor/CustomThreadPoolExecutor$CustomThreadFactory.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/threadDemo/excutor/CustomThreadPoolExecutor$CustomThreadFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/threadDemo/excutor/CustomThreadPoolExecutor.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/threadDemo/excutor/CustomThreadPoolExecutor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/threadDemo/excutor/CustomThreadPoolExecutor1$1.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/threadDemo/excutor/CustomThreadPoolExecutor1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/threadDemo/excutor/CustomThreadPoolExecutor1$CustomRejectedExecutionHandler.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/threadDemo/excutor/CustomThreadPoolExecutor1$CustomRejectedExecutionHandler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/threadDemo/excutor/CustomThreadPoolExecutor1$CustomThreadFactory.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/threadDemo/excutor/CustomThreadPoolExecutor1$CustomThreadFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/threadDemo/excutor/CustomThreadPoolExecutor1.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/threadDemo/excutor/CustomThreadPoolExecutor1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/threadDemo/excutor/ExecutorDemo$1.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/threadDemo/excutor/ExecutorDemo$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/threadDemo/excutor/ExecutorDemo$2.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/threadDemo/excutor/ExecutorDemo$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/threadDemo/excutor/ExecutorDemo$3.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/threadDemo/excutor/ExecutorDemo$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/threadDemo/excutor/ExecutorDemo$4.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/threadDemo/excutor/ExecutorDemo$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/threadDemo/excutor/ExecutorDemo$5.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/threadDemo/excutor/ExecutorDemo$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/threadDemo/excutor/ExecutorDemo.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/threadDemo/excutor/ExecutorDemo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/transtreeDemo/ITree.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/transtreeDemo/ITree.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/transtreeDemo/ITreeNode.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/transtreeDemo/ITreeNode.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/transtreeDemo/Org.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/transtreeDemo/Org.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/transtreeDemo/Tree.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/transtreeDemo/Tree.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/transtreeDemo/TreeDemo.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/transtreeDemo/TreeDemo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/transtreeDemo/TreeNode.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/transtreeDemo/TreeNode.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/util/FileManage.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/util/FileManage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/util/HttpUtil.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/util/HttpUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/util/StringUtil.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/util/StringUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/util/WorkdayUtil.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/util/WorkdayUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/wx/FinalSendDataMsg.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/wx/FinalSendDataMsg.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/wx/SendMsgByThread$ThreadInstance.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/wx/SendMsgByThread$ThreadInstance.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/wx/SendMsgByThread.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/wx/SendMsgByThread.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/wx/WxMessVo.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/wx/WxMessVo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/wx/WxSendDataMess.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/cn/lvyjx/test/wx/WxSendDataMess.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/jdklib/ProxyImpl.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/jdklib/ProxyImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/jdklib/ProxyInterface.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/jdklib/ProxyInterface.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/jdklib/ProxyJDKlib.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/jdklib/ProxyJDKlib.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/jdklib/Test.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/jdklib/Test.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/springDemo/SpringMvcDemo.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/springDemo/SpringMvcDemo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/springDemo/injection/InjectDao.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/springDemo/injection/InjectDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/springDemo/injection/InjectDaoImp.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/springDemo/injection/InjectDaoImp.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/springDemo/injection/InjectDemo.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/springDemo/injection/InjectDemo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/springDemo/injection/InjectFactory.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/springDemo/injection/InjectFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/springDemo/injection/injectStaticFactory.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/springDemo/injection/injectStaticFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/springDemo/inputSource/InputSourceDemo.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/springDemo/inputSource/InputSourceDemo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/springDemo/messageSource/MessageSourceDemo.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/springDemo/messageSource/MessageSourceDemo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/springDemo/messageSource/TestDemo.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/springDemo/messageSource/TestDemo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/springDemo/postProcessor/BeanDefinitionRegistryPostProcessorDemo.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/springDemo/postProcessor/BeanDefinitionRegistryPostProcessorDemo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/springDemo/postProcessor/BeanDefinitionRegistryPostProcessorOrderDemo.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/springDemo/postProcessor/BeanDefinitionRegistryPostProcessorOrderDemo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/springDemo/postProcessor/BeanDefinitionRegistryPostProcessorPriorityOrderedDemo.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/springDemo/postProcessor/BeanDefinitionRegistryPostProcessorPriorityOrderedDemo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/springDemo/postProcessor/BeanFactoryPostProcessorsDemo.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/springDemo/postProcessor/BeanFactoryPostProcessorsDemo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/target/classes/springDemo/postProcessor/BeanPostProcessorDemo.class" afterPath="$PROJECT_DIR$/springDemo/target/classes/springDemo/postProcessor/BeanPostProcessorDemo.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springDemo/springDemo.iml" afterPath="$PROJECT_DIR$/springDemo/springDemo.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/springDemo/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -181,7 +52,7 @@
       <file leaf-file-name="MainDemo.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/springDemo/src/main/java/cn/lvyjx/test/model/observer/MainDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
+            <state relative-caret-position="322">
               <caret line="14" column="60" lean-forward="false" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -1011,12 +882,20 @@
       <workItem from="1567941090439" duration="11275000" />
       <workItem from="1570259098818" duration="4019000" />
       <workItem from="1570332550316" duration="2886000" />
-      <workItem from="1570445363029" duration="5046000" />
+      <workItem from="1570445363029" duration="5156000" />
     </task>
+    <task id="LOCAL-00001" summary="观察模式">
+      <created>1570461413563</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1570461413563</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27124000" />
+    <option name="totallyTimeSpent" value="27234000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
@@ -1040,10 +919,10 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" x="91" y="91" width="1738" height="860" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42873695" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32908458" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908458" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908458" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22424893" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32908458" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22424893" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1109,6 +988,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="观察模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="观察模式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1327,6 +1210,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1515,7 +1399,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/springDemo/src/main/java/cn/lvyjx/test/model/observer/MainDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
+        <state relative-caret-position="322">
           <caret line="14" column="60" lean-forward="false" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
