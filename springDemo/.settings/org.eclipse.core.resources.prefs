@@ -1,4 +1,5 @@
 eclipse.preferences.version=1
+encoding//WebContent/chat.jsp=UTF-8
 encoding//src/main/resources/log4j.properties=UTF-8
 encoding//src/main/resources/message.properties=UTF-8
 encoding//src/main/resources/message_en.properties=UTF-8
